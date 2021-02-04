@@ -31,3 +31,7 @@ systemctl restart nginx
 
 EXTERNAL_IP=$(curl -s ifconfig.co)
 echo "Reverse proxy enabled on https://${EXTERNAL_IP}"
+
+
+`` ADD USER FOR GUI ``
+htpasswd -c /etc/nginx/.htpasswd admin
