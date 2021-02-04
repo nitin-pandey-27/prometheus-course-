@@ -33,5 +33,6 @@ EXTERNAL_IP=$(curl -s ifconfig.co)
 echo "Reverse proxy enabled on https://${EXTERNAL_IP}"
 
 
-`` ADD USER FOR GUI ``
+` ADD USER FOR GUI `
+apt install apache2-utils
 htpasswd -c /etc/nginx/.htpasswd admin
