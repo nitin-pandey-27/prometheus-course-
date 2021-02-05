@@ -71,6 +71,14 @@ https://helm.sh/blog/new-location-stable-incubator-charts/
 ## STEPS TO INSTALL PROMETHEUS / ALERT MANAGER / GRAFANA & EDIT SERVICES TO EXPOSE NODE PORT
 ```
 https://dev.to/ko_kamlesh/install-prometheus-grafana-with-helm-3-on-local-machine-vm-1kgj 
+
+Check Steps and use the NODEPORT. 
+
+Use below credentails for login to Grafana 
+
+username: admin
+password: prom-operator
+
 ```
 
 
