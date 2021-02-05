@@ -117,4 +117,6 @@ password: prom-operator
 
 https://github.com/coreos/prometheus-operatorhttps://github.com/coreos/prometheus-operator
 
+https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+
 ```
