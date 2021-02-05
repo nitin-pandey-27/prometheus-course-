@@ -24,6 +24,7 @@ socat TCP4-LISTEN:9091,fork TCP4:localhost:9090 &
 
 # Running Prometheus on Kubernetes - UPDATED / LATEST
 
+## NOTE: RUN THIS FROM ANY K8s MASTER NODE
 ## STEPS TO INSTALL HELM in K8S & ADD REPO 
 ```
   wget https://get.helm.sh/helm-v3.2.3-linux-amd64.tar.gz
