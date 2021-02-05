@@ -51,6 +51,36 @@ socat TCP4-LISTEN:9091,fork TCP4:localhost:9090 &
  
  helm install --generate-name stable/prometheus-operator --namespace idx --kubeconfig /home/nitinpan/certs/admin.kubeconfig
  
+ # helm install --generate-name stable/prometheus-operator --namespace monitoring --kubeconfig /home/nitinpan/certs/admin.kubeconfig
+WARNING: This chart is deprecated
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+manifest_sorter.go:192: info: skipping unknown hook: "crd-install"
+NAME: prometheus-operator-1612531358
+LAST DEPLOYED: Fri Feb  5 17:22:41 2021
+NAMESPACE: monitoring
+STATUS: deployed
+REVISION: 1
+NOTES:
+*******************
+*** DEPRECATED ****
+*******************
+* stable/prometheus-operator chart is deprecated.
+* Further development has moved to https://github.com/prometheus-community/helm-charts
+* The chart has been renamed kube-prometheus-stack to more clearly reflect
+* that it installs the `kube-prometheus` project stack, within which Prometheus
+* Operator is only one component.
+
+The Prometheus Operator has been installed. Check its status by running:
+  kubectl --namespace monitoring get pods -l "release=prometheus-operator-1612531358"
+
+Visit https://github.com/coreos/prometheus-operator for instructions on how
+to create & configure Alertmanager and Prometheus instances using the Operator.
+
+ 
 ``` 
  
  
