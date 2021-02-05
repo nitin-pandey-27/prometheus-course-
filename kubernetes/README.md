@@ -112,3 +112,9 @@ password: prom-operator
 ```
 
 
+## VISIT THIS PAGE TO FURTHER CONFIGURE 
+```
+
+https://github.com/coreos/prometheus-operatorhttps://github.com/coreos/prometheus-operator
+
+```
